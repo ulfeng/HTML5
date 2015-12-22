@@ -156,8 +156,51 @@ db.transaction(function (tx) {
     tx.executeSql('UPDATE LOGS SET log=\'www.w3cschool.cc\' WHERE id=2');
 });
 
+// HTML5 Web 存储
+// 比cookie更好的本地存储方式
+// 浏览器支持:IE8+,Firefox,Opera,Chrome,Sarfri
+// There are two new objects for storing data on the client
+// localStorage - 没有时间限制的数据存储
+// sessionStorage - 针对一个session的数据存储
 
+// 检查浏览器是否支持
+if (typeof (Storage) !== "undefined") {
+    // Yes! localStorage and sessionStorage support!
+    // Some code....
+}
+else {
+    // Sorry! No web storage support...
+}
 
+// localStorage 对象
+// localStorage 对象存储的数据没有时间限制
+localStorage.lastname = "Smith";
+document.getElementById("result").innerHTML = "Last name: " + localStorage.lastname;
+
+// sessionStorage 对象
+// sessionStorage 方法是针对一个session进行数据存储。当用户关闭浏览器窗口后，数据会被删除
+if (sessionStorage.clickcount) {
+    sessionStorage.clickcount = Number(sessionStorage.clickcount) + 1;
+}
+else {
+    document.getElementById("result").innerHTML = "You have clicked the button " + sessionStorage.clickcount + " time(s) in the session";
+}
+
+// 语义元素
+// <header>
+// <nav>
+// <section>
+// <article>
+// <aside>
+// <figcaption>
+// <figure>
+// 规定独立的流内容(图像、图表、照片、代码等)
+// <footer>
+
+// 表单元素
+// <datalist>
+// <keygen>
+// <output>
 
 
 

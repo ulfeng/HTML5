@@ -10,5 +10,150 @@
     <button onclick="startWorker()">开始工作</button>
     <button onclick="stopWorker()">停止工作</button>
     <p><strong>注意:1</strong>Internet Explorer 9 及更早IE版本不支持Web Workers.</p>
+
+    <input list="browsers" />
+    <datalist id="browsers">
+        <option value="Internet Explorer"></option>
+        <option value="Firefox"></option>
+        <option value="Chrome"></option>
+        <option value="Opera"></option>
+        <option value="Safari"></option>
+    </datalist>
+
+    <!-- <keygen>元素
+         验证用户的可靠方法；
+        当提交表单时，会生成两个键，一个是私钥，一个是公钥
+        私钥存储在客户端，公钥则被发送到服务器；
+        公钥可用于之后验证用户的客户端证书
+     -->
+    <form action="demo_keygen.asp" method="get">
+        用户名：<input type="text" name="user_name" />
+        加密：<keygen name="security" />
+        <input type="submit" />
+    </form>
+
+    <!-- 
+        <output>元素用于不同类型的输出，比如计算或脚本输出；
+        将计算结果显示在<output>中
+    -->
+    <form oninput="x.value=parseInt(a.value)+parseInt(b.value)">0
+        <input type="range" id="a" value="50" />100 +
+        <input type="number" id="b" value="50" />=
+        <output name="x" for="a b"></output>
+    </form>
+
+    <!-- 表单属性 -->
+    <!-- autocomplete 属性规定form或input域应该拥有自动完成功能 -->
+    <!-- 当用户在自动完成域中开始输入时，浏览器会在该域中显示填写的内容 -->
+    <form action="demo-form.php" autocomplete="on">
+        First name:<input type="text" name="fname" /><br />
+        Last name:<input type="text" name="lname" /><br />
+        E-mail:<input type="email" name="email" autocomplete="off" />
+    </form>
+
+    <!-- 
+        <form> novalidate属性 
+        是一个boolean属性；
+        规定在提交表单时不应该验证form或input域
+    -->
+    <form action="demo-form.php" novalidate>
+        E-mail:<input type="email" name="user_email" />
+        <input type="submit" />
+    </form>
+
+    <!-- 
+        <input> autofocus 属性
+        boolean属性
+        在页面加载时，域自动地获得焦点
+        IE10+
+     -->
+    <form action="demo-form.php">
+        First name:<input type="text" name="fname" autofocus /><br />
+        Last name:<input type="text" name="lname" />
+    </form>
+
+    <!-- 
+        <input> form属性
+        form 属性规定输入域的一个或多个表单 
+    -->
+    <form action="demo-form.php" id="form1">
+        First name:<input type="text" name="fname" /><br />
+        <input type="submit" value="Submit" />
+    </form>
+
+    Last Name:<input type="text" name="lname" form="form1" />
+
+    <!-- 
+        <input> formaction 属性
+        描述表单提交的URL地址
+        会覆盖<form>元素中的action属性
+        用于type="submit"和type="image"
+    -->
+    <form action="demo-post_enctype.php" method="post">
+        First name:<input type="text" name="fname" /><br />
+        <input type="submit" value="Submit" />
+        <input type="submit" formaction="demo-admin.php" value="Submit as admin" />
+    </form>
+
+    <!-- 
+        <input> formenctype属性，表单提交到服务器的数据编码
+        覆盖了form元素中的ectype属性
+    -->
+
+    <!-- 
+        <input> formmethod属性 定义了表单提交的方式  
+        覆盖了form元素的method属性
+    -->
+
+    <!-- 
+        <input> formvalidate 属性
+        在表单提交时无需验证
+        会覆盖<form>元素的novalidate属性     
+    -->
+
+    <!-- 
+        <input> formtarget 属性
+        表单提交数据接收后的展示   
+    -->
+
+    <!-- 
+        <input> height 属性 和 width属性
+        用于images类型的<input>标签的图像高度和宽度     
+    -->
+
+    <!-- 
+        <input> list 属性
+        list 属性规定输入域的datalist,datalist是输入域的选项列表  
+    -->
+
+    <!-- 
+        <input> min max 和step属性，用于包含数字和日期的input类型规定限制(约束)
+        list data pickers number 以及 range
+    -->
+    
+    <!-- 
+        <input> multiple 属性
+        multiple属性规定<input>元素中可选择多个值 
+    -->
+
+    <!-- 
+        <input> pattern 属性
+        描述了一个正则表达式用于验证<input>元素的值
+    -->
+
+    <!-- 
+        <input> placeholder 属性
+    -->
+
+    <!-- 
+        <input> required 属性
+        不能为空
+    -->
+
+    <!-- 
+        <input> step 属性
+        规定合法的数字间隔
+    -->
+
 </body>
 </html>
