@@ -24,11 +24,58 @@ Google 资源库在国内不稳定：
 
 #### HTML5 新元素
 canvas新元素<br>
-| 标签          | 描述          |
-| ------------- | ------------- |
-| canvas        | 标签定义图形和其他图像。该标签基于JavaScript的绘图API。 |
+<table>
+    <tr>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+    </tr>
+</table>
 
-新多媒体元素
+<table>
+    <tr>
+        <td>标签</td>
+        <td>描述</td>
+    </tr>
+    <tr>
+        <td>canvas</td>
+        <td>标签定义图形，比如图表和其它图像。改标签基于JavaScript的绘图API.</td>
+    </tr>
+</table>
+
+新多媒体元素<br>
+<table>
+    <tr>
+        <td>标签</td>
+        <td>描述</td>
+    </tr>
+    <tr>
+        <td>audio</td>
+        <td>定义音频内容</td>
+    </tr>
+    <tr>
+        <td>video</td>
+        <td>定义视频（video 或者 movie）</td>
+    </tr>
+    <tr>
+        <td>source</td>
+        <td>定义多媒体资源 <video> 和 <audio></td>
+    </tr>
+    <tr>
+        <td>embed</td>
+        <td>定义嵌入的内容，比如插件。</td>
+    </tr>
+    <tr>
+        <td>track</td>
+        <td>为诸如 <video> 和 <audio> 元素之类的媒介规定外部文本轨道。</td>
+    </tr>
+</table>
+
+
+
 
 
 
