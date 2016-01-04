@@ -23,7 +23,7 @@ Google 资源库在国内不稳定：
 ```
 
 #### HTML5 新元素
-canvas新元素<br>
+canvas新元素
 <table>
     <tr>
         <td></td>
@@ -46,7 +46,7 @@ canvas新元素<br>
     </tr>
 </table>
 
-新多媒体元素<br>
+新多媒体元素
 <table>
     <tr>
         <td>标签</td>
@@ -73,6 +73,111 @@ canvas新元素<br>
         <td>为诸如 <video> 和 <audio> 元素之类的媒介规定外部文本轨道。</td>
     </tr>
 </table>
+
+新的表单元素：
+<table>
+    <tr>
+        <td>标签</td>
+        <td>描述</td>
+    </tr>
+    <tr>
+        <td>datalist</td>
+        <td>定义选项列表。请与input元素配合使用该元素。</td>
+    </tr>
+    <tr>
+        <td>keygen</td>
+        <td>规定用于表单的密钥对生成器字段</td>
+    </tr>
+    <tr>
+        <td>output</td>
+        <td>定义不同类型的输出，比如脚本的输出</td>
+    </tr>
+</table>
+
+新的语义和结构元素：
+<table>
+    <tr>
+        <td>标签</td>
+        <td>描述</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+    </tr>
+</table>
+
 
 
 
