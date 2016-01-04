@@ -26,18 +26,9 @@ Google 资源库在国内不稳定：
 canvas新元素<br>
 | 标签          | 描述          |
 | ------------- | ------------- |
-| canvas        | 标签定义图形和其他图像。该标签基于JavaScript的绘图API。  |
+| canvas        | 标签定义图形和其他图像。该标签基于JavaScript的绘图API。 |
 
 新多媒体元素
-| 标签          | 描述          |
-| ------------- | ------------- |
-| audio         | 定义音频内容  |
-| video         | 定义视频(video或者movie)  |
-| source        | 定义多媒体资源<video>和<audio>  |
-| embed         | 定义嵌入的内容，比如插件  |
-| track         | 为诸如<video>和<audio>元素之类的媒介规定外部文本轨道  |
-
-
 
 
 
