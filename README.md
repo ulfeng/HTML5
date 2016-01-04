@@ -101,24 +101,24 @@ canvas新元素
         <td>描述</td>
     </tr>
     <tr>
-        <td></td>
-        <td></td>
+        <td>article</td>
+        <td>定义页面独立的内容区域</td>
     </tr>
     <tr>
-        <td></td>
-        <td></td>
+        <td>aside</td>
+        <td>定义页面的侧边栏内容</td>
     </tr>
     <tr>
-        <td></td>
-        <td></td>
+        <td>bdi</td>
+        <td>允许您设置一段文本，使其脱离其父元素的文本方向设置。</td>
     </tr>
     <tr>
-        <td></td>
-        <td></td>
+        <td>command</td>
+        <td>定义命令按钮，比如单选按钮、复选框或按钮</td>
     </tr>
     <tr>
-        <td></td>
-        <td></td>
+        <td>details</td>
+        <td>用于描述文档或文档某个部分的细节</td>
     </tr>
     <tr>
         <td></td>
