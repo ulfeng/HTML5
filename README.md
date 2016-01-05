@@ -186,6 +186,25 @@ canvas新元素
     </tr>
 </table>
 
+#### HTML5 Canvas
+canvas 标签定义图形，比如图表和其他图像，须使用脚本(javascript)来绘制图形。<br>
+
+创建一个画布：
+```javascript
+<canvas id="myCanvas" width="200" height="100"></canvas>
+```
+
+使用 JavaScript来绘制图像:
+```javascript
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+ctx.fillStyle = "#FF0000";
+ctx.fillRect(0,0,150,75);
+```
+
+
+
+
 
 
 
