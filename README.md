@@ -194,13 +194,49 @@ canvas 标签定义图形，比如图表和其他图像，须使用脚本(javasc
 <canvas id="myCanvas" width="200" height="100"></canvas>
 ```
 
-使用 JavaScript来绘制图像:
+使用 JavaScript 来绘制图像:
 ```javascript
 var c = document.getElementById("myCanvas");
-var ctx = c.getContext("2d");
+var ctx = c.getContext("2d");  // 创建context对象
 ctx.fillStyle = "#FF0000";
 ctx.fillRect(0,0,150,75);
 ```
+
+Canvas - 路径
+```javascript
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");  // 创建context对象
+ctx.moveTo(0,0);
+ctx.lineTo(200,100);
+ctx.stroke();  // 执行
+```
+
+Canvas - 圆<br>
+方法：arc(x,y,r,start,stop,direction); <br>
+参数：圆点x坐标，圆点y坐标，半径，开始弧度，结束弧度，方向(true：顺时针；false:逆时针)
+
+```javascript
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");  // 创建context对象
+ctx.beginPath();
+ctx.arc(95,50,40,0,2*Math.PI);
+ctx.strole();
+```
+
+Canvas - 文本<br>
+font - 定义字体<br>
+fillText(text,x,y,maxWidth) - 在canvas上绘制实心的文本,文本/开始x坐标/开始y坐标/最大宽度(可选)<br> 
+strokeText(text,x,y,maxWidth) - 在canvas上绘制空心的文本<br>
+```javascript
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");  // 创建context对象;
+ctx.font = "30px Arial";
+ctx.fillText("Hello World",10,50); // 实心
+ctx.strokeText("Hello World",10,50); // 空心
+```
+
+
+
 
 
 
