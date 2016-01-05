@@ -121,60 +121,68 @@ canvas新元素
         <td>用于描述文档或文档某个部分的细节</td>
     </tr>
     <tr>
-        <td></td>
-        <td></td>
+        <td>dialog</td>
+        <td>定义对话框，比如提示框</td>
     </tr>
     <tr>
-        <td></td>
-        <td></td>
+        <td>summary</td>
+        <td>标签包含details元素的标签</td>
     </tr>
     <tr>
-        <td></td>
-        <td></td>
+        <td>figure</td>
+        <td>规定独立的流内容(图像、图表、照片、代码等等)</td>
     </tr>
     <tr>
-        <td></td>
-        <td></td>
+        <td>figcaption</td>
+        <td>定义figure元素的标题</td>
     </tr>
     <tr>
-        <td></td>
-        <td></td>
+        <td>footer</td>
+        <td>定义section或document的页脚</td>
     </tr>
     <tr>
-        <td></td>
-        <td></td>
+        <td>header</td>
+        <td>定义了文档的头部区域</td>
     </tr>
     <tr>
-        <td></td>
-        <td></td>
+        <td>mark</td>
+        <td>定义带有记号的文本</td>
     </tr>
     <tr>
-        <td></td>
-        <td></td>
+        <td>meter</td>
+        <td>定义度量衡。仅用于已知最大和最小值的度量</td>
     </tr>
     <tr>
-        <td></td>
-        <td></td>
+        <td>nav</td>
+        <td>定义运行中的进度(进程)</td>
     </tr>
     <tr>
-        <td></td>
-        <td></td>
+        <td>progress</td>
+        <td>定义任何类型的任务的进度。</td>
     </tr>
     <tr>
-        <td></td>
-        <td></td>
+        <td>ruby</td>
+        <td>定义ruby注释(中文注音或字符)</td>
     </tr>
     <tr>
-        <td></td>
-        <td></td>
+        <td>rt</td>
+        <td>定义字符(中文注音或字符)的解释或发音</td>
     </tr>
     <tr>
-        <td></td>
-        <td></td>
+        <td>rp</td>
+        <td>在ruby注释中使用，定义不支持ruby元素的浏览器所显示的内容</td>
     </tr>
     <tr>
-        <td></td>
-        <td></td>
+        <td>section</td>
+        <td>定义文档中的节(section\区段)</td>
+    </tr>
+    <tr>
+        <td>time</td>
+        <td>定义日期或时间</td>
+    </tr>
+    <tr>
+        <td>wbr</td>
+        <td>规定在文本中的何处适合添加换行符</td>
     </tr>
 </table>
 
