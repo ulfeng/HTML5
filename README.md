@@ -235,6 +235,65 @@ ctx.fillText("Hello World",10,50); // 实心
 ctx.strokeText("Hello World",10,50); // 空心
 ```
 
+#### SVG
+SVG 意为可缩放矢量图形(Scalable Vector Graphics)<br>
+SVG 使用 XML 格式定义图像<br>
+
+###### SVG 圆形
+```html 
+    <svg xmls="#" version="1.1">
+        <circle cx="100" cy="50" r="40" stroke="black" stoke-width="2" fill="red"></circle>
+    </svg>
+    <!--参数：cx:圆点x坐标；cy:圆点y坐标；r:半径；stroke:圆border；fill:填充颜色。-->
+```
+
+###### SVG 矩形
+```html 
+    <svg xmls="http://www.w3.org/2000/svg" version="1.1" width="200" height="200">
+        <rect x="50" y="50" height="200" width="200" style="fill:rgb(0,0,255);stroke-width: 1;stroke:rgb(0,0,0); fill-opacity:0.3;       stroke-opacity:0.1; "  ></rect>
+    </svg>
+    <!-- 圆角矩形 -->
+    <svg xmls="#" version="1.1" width="200" height="200">
+        <rect x="50" y="20" rx="20" ry="20" width="150" height="150" style="fill:red;stroke:black;stroke-width:5;opacity:0.5"></rect>
+    </svg>
+```
+
+###### SVG 椭圆
+```html 
+    <svg xmlns="#" version="1.0" height="500" width="500">
+        <ellipse cx="300" cy="80" rx="100" ry="50" style="fill:yellow; stroke:purple; stroke-width:2"></ellipse>
+    </svg>
+    <!--参数：cx:圆心x坐标；cy:圆心y坐标；rx:水平半径；ry:垂直半径。 -->
+    <!--三个垒叠而上的椭圆-->
+    <svg xmlns="#" version="1.0" height="500" width="500">
+        <ellipse cx="240" cy="100" rx="220" ry="30" style="fill:purple"></ellipse>
+        <ellipse cx="240" cy="70" rx="190" ry="20" style="fill:lime"></ellipse>
+        <ellipse cx="210" cy="45" rx="170" ry="15" style="fill:yellow"></ellipse>
+    </svg>
+    <!-- 两个椭圆 -->
+    <svg xmlns="#" version="1.0" height="500" width="500">
+        <ellipse cx="240" cy="50" rx="220" ry="30" style="fill:yellow"></ellipse>
+        <ellipse cx="220" cy="50" rx="190" ry="20" style="fill:white"></ellipse>
+    </svg>
+```
+
+###### SVG 直线
+```html 
+    <!--SVG 直线-->
+    <svg xmlns="#" version="1.0">
+        <line x1="0" y1="0" x2="200" y2="200" style="stroke:rgb(255,0,0);stroke-width:2"></line>
+    </svg>
+    <!--参数：x1:属性x轴开始；y1:属性y轴开始；x2:属性x轴结束；y2:属性y轴结束-->
+```
+
+###### SVG 
+```html 
+```
+
+###### SVG 
+```html 
+```
+
 
 
 
