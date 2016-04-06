@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML5 拖拽</title>
+    <style>
+        #div1{
+            width:350px;
+            height: 70px;
+        padding: 10px;
+        border:1px solid #eee;
+        }
+    </style>
+    <script>
+        function allowDrop(ev){
+            ev.preventDefault();
+        }
+        function  drag(ev){
+            ev.dataTransfer.setData("Text",ev.target.id);
+        }
+
+        function  drop(ev){
+            ev.preventDefault();
+            var data=ev.dataTransfer.getData("Text");
+            ev.target.appendChild(document.getElementById(data));
+        }
+    </script>
+</head>
+<body>
+    <p>拖动 W3CSchool.cc图片到矩形框中</p>
+<div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<img id="drap1" src="logo.png" draggable="true" ondragstart="drag(event)" width=336" height="69">
+</body>
+</html>
